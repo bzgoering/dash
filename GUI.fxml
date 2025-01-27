@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+
+<BorderPane xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Control">
+   <center>
+      <Pane prefHeight="600.0" prefWidth="900.0" BorderPane.alignment="CENTER">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#676f75" height="268.0" layoutY="332.0" stroke="BLACK" strokeType="INSIDE" width="900.0" />
+            <Circle fx:id="player" fill="DODGERBLUE" layoutX="175.0" layoutY="282.0" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+            <Rectangle fx:id="r1" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="50.0" layoutX="836.0" layoutY="282.0" stroke="BLACK" strokeType="INSIDE" width="50.0" />
+            <Button fx:id="playButton" layoutX="413.0" layoutY="444.0" mnemonicParsing="false" onAction="#play" prefHeight="44.0" prefWidth="74.0" text="Play" />
+         </children>
+      </Pane>
+   </center>
+</BorderPane>
